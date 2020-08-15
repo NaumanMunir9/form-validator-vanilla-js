@@ -7,27 +7,37 @@
     <title>Form Validator</title>
   </head>
   <body>
-    <div class="container">
+    <div id="container">
       <form id="form" class="form">
         <h2>
-          Register with Us
+          Register With Us
         </h2>
         <div class="form-control">
-          <label for="username">Username</label>
-          <input type="text" id="username" placeholder="Enter username" />
-          <small>Error Message</small>
+          <label for="username">Usermame</label>
+          <input type="text" id="username" placeholder="Enter your username" />
+          <small>
+            Error Message
+          </small>
         </div>
 
         <div class="form-control">
           <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Enter email" />
-          <small>Error Message</small>
+          <input type="email" id="email" placeholder="Enter your Email" />
+          <small>
+            Error Message
+          </small>
         </div>
 
         <div class="form-control">
           <label for="password">Password</label>
-          <input type="password" id="password" placeholder="Enter password" />
-          <small>Error Message</small>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your Password"
+          />
+          <small>
+            Error Message
+          </small>
         </div>
 
         <div class="form-control">
@@ -37,13 +47,16 @@
             id="password2"
             placeholder="Enter password again"
           />
-          <small>Error Message</small>
+          <small>
+            Error Message
+          </small>
         </div>
         <button type="submit">
           Submit
         </button>
       </form>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
